@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
-@RequestMapping("/api/2")
+@RequestMapping("/api/feat2")
 @RestController
 class BlogController (
     val blogService: BlogService
